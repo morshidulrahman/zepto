@@ -1,0 +1,143 @@
+.menu_icon{
+    display: none;
+}
+@media(max-width:767px){
+.section_title{
+    font-size: 2.2em;
+}
+.header_wraper{
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+}
+.menuitems{
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    display: none;
+}
+.menu_active{
+    display: flex;
+}
+.menuitems .navlink{
+   padding-bottom: 20px 0px;
+}
+.menu_icon{
+    display:block;
+    font-size: 25px;
+    color:#4169E1;
+    position: absolute;
+    right: 20px;
+    top: 0;
+    z-index:99;
+}
+.hero_wrapper{
+    flex-direction: column;
+    align-items: center;
+}
+.hero_desc{
+    width: 100%;
+}
+.hero_desc h1{
+    text-align: center;
+    font-size: 2.6em;
+}
+.hero_desc p{
+    font-size: 1.2em; 
+}
+.hero_desc{
+    margin-bottom: 40px;
+}
+.hero_img{
+    width: 100%;
+}
+.customer_wrapper{
+    flex-direction: column;
+}
+.customer_left{
+    width: 100%;
+}
+.revenu_wraper{
+    flex-direction: column;
+}
+.revenu_left{
+    width: 100%;
+}
+.benefit_header{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.benefit_cards{
+    flex-direction: column;
+    align-items: center;
+     
+}
+.startup_wrapper{
+    flex-direction: column;
+    
+}
+.startup_wrapper .section_title{
+    width: 100%;
+}
+.startup_btn_wrapper{
+flex-direction: column;
+width: 100%;
+}
+.security_image{
+    width: 50%;
+}
+.security_wrapper{
+    flex-direction: column-reverse;
+}
+.security_wrapper img{
+    width: 100%;
+}
+.security_content .section_title{
+    font-size: 2.2em;
+}
+.security_content{
+    width: 100%;
+}
+.security_content ul li{
+    font-size: 1.1em;
+}
+.payment_method_wrapper{
+    flex-direction: column;
+
+}
+.payment_method_wrapper .section_title{
+    width: 100%;
+}
+.payment_cards{
+   width: 100%;
+}
+.faq .section_title{
+    font-size: 2.2em;
+}
+.faq_head h4{
+    font-size: 1.2em;
+    color:#52596D
+}
+.footer_head{
+    flex-direction: column;
+    align-items: flex-start;
+}
+.footer_contant {
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 40px;
+}
+.footerleft{
+    margin-bottom: 30px;
+}
+.footer_body{
+    flex-direction: column-reverse;
+
+}
+.footer_body ul{
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+}
